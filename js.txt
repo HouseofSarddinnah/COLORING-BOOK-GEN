@@ -1,0 +1,17 @@
+let storyline = [];
+let currentIndex = 0;
+
+const options = {
+  outfits: ["Casual", "Pajamas", "Formal", "Adventure Gear", "Fantasy Costume"],
+  hairstyles: ["Short", "Long", "Braided", "Curly", "Bun"],
+  ethnicities: ["Asian", "African", "Caucasian", "Latino", "Mixed"],
+  genders: ["Male", "Female", "Non-binary"],
+  skinTones: ["Light", "Tan", "Brown", "Dark"],
+  extras: ["Pet Cat", "Pet Dog", "Best Friend", "Sibling", "Parent"],
+  activities: ["Reading", "Cooking", "Walking", "Playing Music", "Gardening"],
+  styles: ["Line Art", "2D Illustration", "3D Render", "Sticker", "T-shirt"],
+  cultures: ["Japanese", "Nordic", "African", "Mexican", "Middle Eastern"],
+  fonts: ["Handwritten", "Comic", "Elegant Script", "Blocky", "Whimsical"]
+};
+
+// … copy all your functions: generateStoryline, renderStoryline, makeSelect, etc.

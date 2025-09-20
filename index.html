@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>🎨 Ultimate Coloring Book & Storybook Generator</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<h1>🎨 Ultimate Coloring Book & Storybook Generator</h1>
+
+<div class="controls">
+  <h3>⚙️ Generator Controls</h3>
+  <label>Mode:
+    <select id="mode">
+      <option value="full">Full Storyline (20–30 prompts)</option>
+      <option value="single">Single Prompt Mode</option>
+    </select>
+  </label>
+  <label>Theme:
+    <select id="theme">
+      <option value="cozy">Cozy Friends Daily Life</option>
+      <option value="hygge">Fuzzy Hygge Lifestyle</option>
+      <option value="seaside">By the Sea Adventure</option>
+      <option value="fantasy">Fantasy Creatures</option>
+    </select>
+  </label>
+  <button onclick="generateStoryline()">✨ Generate Storyline</button>
+  <button onclick="randomizeStoryline()">🎲 Surprise Me</button>
+</div>
+
+<div id="storyline"></div>
+
+<div class="export">
+  <h3>📤 Export Options</h3>
+  <button onclick="copyAll()">📋 Copy All</button>
+  <button onclick="downloadFile('txt')">💾 Download TXT</button>
+  <button onclick="downloadFile('pdf')">📄 Download PDF</button>
+</div>
+
+<div class="ai-buttons">
+  <h3>🤖 AI Prompt Export</h3>
+  <button onclick="prepFor('Gemini')">Gemini</button>
+  <button onclick="prepFor('MidJourney')">MidJourney</button>
+  <button onclick="prepFor('DALL·E')">DALL·E</button>
+  <button onclick="prepFor('ChatGPT')">ChatGPT</button>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="js/generator.js"></script>
+
+</body>
+</html>

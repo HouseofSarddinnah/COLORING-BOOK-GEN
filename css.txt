@@ -1,0 +1,11 @@
+body { font-family: Arial, sans-serif; margin: 20px; background: #fdfdfd; color: #222; }
+h1 { text-align: center; margin-bottom: 20px; }
+.controls, .editor, .preview, .export { margin: 20px 0; padding: 15px; border: 1px solid #ddd; border-radius: 10px; background: #fafafa; }
+.scene { border: 1px solid #ccc; border-radius: 8px; padding: 10px; margin: 10px 0; background: #fff; }
+textarea { width: 100%; height: 80px; }
+button { margin: 5px; padding: 8px 12px; border: none; border-radius: 6px; background: #4CAF50; color: #fff; cursor: pointer; }
+button:hover { background: #45a049; }
+select, input[type=color] { margin: 5px; padding: 5px; }
+.layout-box { width: 200px; height: 150px; border: 2px dashed #aaa; margin: 10px 0; display: flex; justify-content: center; align-items: center; font-size: 14px; color: #777; }
+.ai-buttons button { background: #0077cc; }
+.ai-buttons button:hover { background: #005fa3; }
